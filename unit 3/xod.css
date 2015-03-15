@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #5EF2BF;
+	text-align:center;
+	font-family: Verdana, helvetica, sans-serif;
+	color: #333;
+	padding: 70px
+}
+
+header {
+	padding: 50px 0px 0px 0px;
+	}
+
+#Slogan {
+	color: #252525;
+	font-size:0.3em;
+	line-height: 10%;
+	position:absolute;
+	left: 180px;
+	right:180px;
+	top: 195px;
+	}
+	
+	h2 {
+		position:absolute;
+		left:180px;
+		right:180px;
+		top: 175px;
+		display: block;
+		font-size-adjust:inherit;
+		font-weight:800;
+		font-size:56px;
+	}
+	
+	p {
+		position: absolute;
+		top: 280px;
+		left: 180px;
+		right: 180px;
+		font-weight:400;
+	}
+	
+	ul {
+		text-align:justify;
+		position: absolute;
+		top: 320px;
+		left: 670px;
+		font-size:1.2em;
+	}
+	
+	li {
+		font-weight:300px;
+	}
+	
+a { 
+position:absolute;
+bottom: 20px;
+left:100px;
+right:100px;
+text-decoration:none;
+font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+color: #666;
+}
