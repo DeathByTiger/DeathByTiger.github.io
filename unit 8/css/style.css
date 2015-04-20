@@ -1,0 +1,67 @@
+body {
+	font-size: 1.250em;
+	line-height: 25px;
+	font-family: verdana, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto auto;
+}
+
+h1 {
+	padding: 15px 0;
+	font-size: 2.250em;
+	color: white;
+}
+
+p {
+	color: white;
+	line-height: 150%;
+}
+
+footer {
+	letter-spacing: 0.5em;
+	padding: 25px;
+	text-align: center;
+	font-family: arial, sans-serif;
+	color: #dc3726;
+	font-weight: 600;
+}
+
+#hero {
+	display: block;
+
+}
+
+#wrapper {
+	padding: 150px 150px;
+	background-color: #dc3726;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+	h1 {
+		font-size: 1.250em
+	}
+	p {
+		font-size: .9em;
+	}
+
+	footer {
+		letter-spacing: 0.2em;
+	}
+
+	#wrapper {
+		padding: 50px 50px;
+	}
+
+	#banner {
+		width: 480px;
+		height: 320px;
+	}
+
+}
