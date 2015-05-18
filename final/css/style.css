@@ -1,0 +1,245 @@
+body {
+	font-size: 1.3em;
+	color: #222;
+	font-family: arial;
+}
+
+	header {
+		color: #444;
+		position: relative;
+		height: 70px;
+		background-color: #fff;
+		text-decoration: none;
+	}
+
+
+		nav {
+			float: right;
+			/*width: 35%;*/
+			min-width: 35%;
+			padding: 23px 0 0 0;
+		}
+
+		nav ul {
+			list-style-type: none;
+		}
+
+		nav li {
+			/*padding: 0px 10px;*/
+			display: inline-block;
+			width: 22%;
+			text-align: center;
+			font-size: 1.2em;
+			color: #333333;
+	
+			font-style: normal;
+			font-family: helvetica;
+		}
+
+		nav a {
+			text-decoration: none;
+			color: #444;
+		}
+
+
+p {
+	width: 33%;
+	}
+
+a {
+	text-decoration: none;
+	color: #d1cc28;
+}
+
+a:hover {
+	color: #d8be00;
+}
+
+
+p span {
+  color: white;
+/*  background: rgb(0, 0, 0);*/
+  padding: 10px;
+
+}
+
+h2 span {
+	color: #CCCC00;
+}
+
+footer h3 {
+	font-family: verdana;
+	color: white;
+	padding: 10px;
+	text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+
+    font-style: italic;
+}
+
+/*-----------------classes and divs--------------------*/
+/*wolfjob*/
+#letterhead {
+	float: left;
+	font-size: 30px;
+	font-family: helvetica; 
+	margin: 20px 0 0 40px;
+}
+
+/*sect 1*/
+
+#hero  p {
+  font-size: 1.4em;
+  position: absolute;
+  top: 300px;
+  right: 50px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+/*  width: 100%;*/
+}
+
+
+
+/*sect 2*/
+
+#info {
+	vertical-align: center;
+	display: inline-block;
+	margin: 50px;
+}
+
+#info h2 {
+	text-align: center;
+	font-size: 1.7em;
+}
+
+/*clean up jagged paragraphs - don't remember how.*/
+
+#info p {
+	margin: 0 auto;
+	display: block;
+	padding: 0 2px;
+	float: left;
+	font-size: 1.1em;
+}
+
+#indent {
+	text-indent: 50px;
+}
+
+/*sect 3*/
+
+#block {
+  color: white;
+  font-size: 1.1em;
+  position: absolute;
+  top: 1525px;
+  left: 50px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+}
+
+/*#block h2 {
+	font-size: 1.2em;
+	padding-bottom: 10px;
+}*/
+
+#moma {
+	font-size: 1.9em;
+	padding-bottom: 5px;
+	font-weight: 600px;
+	letter-spacing: 0.5px;
+}
+
+#momacap {
+	font-style: italic;
+}
+
+
+/*sect 4*/
+#featured {
+	margin: 75px 95px;
+/*	padding: 0 110px;*/
+}
+
+#featured img {
+	display: inline-block;
+/*	float: left;*/
+	padding: 0 5px;
+}
+
+#featured h2, h3 {
+	padding: 0 20px;
+}
+
+#featured h2 {
+	font-size: 1.6em;
+}
+
+#featured h3 {
+	font-size: 0.7em;
+}
+
+#featured p {
+	color: white;
+}
+
+#f1 {
+	float: left;
+}
+
+/*#star {
+	margin: 0;
+
+}
+
+
+#star img {
+	float: left;
+}
+
+#star p {
+	display: inline-block;
+	padding: 15px;
+	float: left;}*/
+
+#spotlight {
+	padding: 40px 0;
+}
+
+#spotlight  h2 {
+  position: absolute;
+  top: 2700px;
+  left: 100px;
+  color: white;
+}
+
+#spotlight p {
+	width: 30%;
+}
+
+#as {
+	padding: 15px;
+	background: rgba(0, 0, 0, 0.7);
+    font-size: 2.3em;
+	font-weight: 600px;
+	letter-spacing: 0.5px;
+}
+
+
+#about{
+	background-color: black;
+	vertical-align: center;
+}
+
+
+
+
+ .clearfix:after {
+ 	visibility: hidden;
+ 	display: block;
+ 	font-size: 0;
+ 	content: "";
+ 	clear: both;
+ 	height: 0;
+ }
